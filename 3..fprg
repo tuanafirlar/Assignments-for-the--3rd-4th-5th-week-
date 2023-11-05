@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 07:54:44 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MDc6NDI6MjIgw5ZTOzI1OTM="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MDc6NTQ6NDQgw5ZTOzE7MjcwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, odd, even" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <if expression="A mod 2 = 0">
+                <then>
+                    <output expression="even" newline="True"/>
+                </then>
+                <else>
+                    <output expression="odd" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

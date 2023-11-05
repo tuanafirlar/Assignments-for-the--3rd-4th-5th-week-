@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 08:27:18 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MDg6MjA6MzUgw5ZTOzI1OTQ="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MDg6Mjc6MTggw5ZTOzE7MjcxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Lft, Lcm" type="Real" array="False" size=""/>
+            <input variable="Lft"/>
+            <assign variable="Lcm" expression="Lft*30"/>
+            <output expression="Lcm" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

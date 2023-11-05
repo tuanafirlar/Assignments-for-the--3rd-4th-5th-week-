@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 11:28:12 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MTE6MTM6NTggw5ZTOzI1OTU="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MTE6Mjg6MTIgw5ZTOzE7MjY5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, even, t, c, r" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <assign variable="C" expression="0"/>
+            <assign variable="t" expression="0"/>
+            <assign variable="r" expression="c % 2"/>
+            <if expression="r = 0">
+                <then>
+                    <assign variable="t" expression="t + c"/>
+                    <output expression="even" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <do expression="c &lt; 0">
+                <assign variable="c" expression="c +1"/>
+                <if expression="r = 0">
+                    <then>
+                        <assign variable="t" expression="t + c"/>
+                        <output expression="even" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <output expression="t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

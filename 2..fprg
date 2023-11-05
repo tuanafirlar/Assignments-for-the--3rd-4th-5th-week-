@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 08:15:08 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MDc6Mzc6NTcgw5ZTOzI2MDU="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MDg6MTU6MDggw5ZTOzI7MjcwNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area, r" type="Real" array="False" size=""/>
+            <input variable="r"/>
+            <assign variable="area" expression="4*pi*r^2"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

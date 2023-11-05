@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PC"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-05 11:54:23 &#214;S"/>
+        <attribute name="created" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MTE6NDY6Mjkgw5ZTOzI1OTk="/>
+        <attribute name="edited" value="UEM7TEFQVE9QLThJMUtFRUw3OzIwMjMtMTEtMDU7MTE6NTQ6MjMgw5ZTOzI7MjcwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <assign variable="numberd&#305;g&#305;ts" expression="0"/>
+            <input variable="number"/>
+            <do expression="say&#305; &lt;&gt; 0">
+                <assign variable="r" expression="number% 10"/>
+                <assign variable="number" expression="number - 10"/>
+                <assign variable="number" expression="number / 10"/>
+                <assign variable="numberd&#305;g&#305;ts" expression="numberd&#305;g&#305;ts + 1"/>
+            </do>
+            <output expression="numberd&#305;g&#305;ts" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
